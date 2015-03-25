@@ -1,16 +1,33 @@
 html, body {
-    height: 100%;
+    min-height: 100%;
     padding: 0;
-    background-color: #fff;
+
+    color: rgba(49, 34, 30, 0.90);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+}
+
+html {
+    background: #E0C78D url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: rgba(49, 34, 30, 0.9);
+    text-decoration: dotted;
+}
+
+a:hover {
+    color: rgba(49, 34, 30, 1);
 }
 
 .wrapper {
     margin: 0 auto;
     width: 1000px;
+    position: relative;
 }
 
 .logo {
-    font-family: 'PT Sans', sans-serif;
     font-size: 72px;
     /*background: url("../img/logo.png") no-repeat left center;
     background-size: contain;*/
@@ -19,23 +36,63 @@ html, body {
     /*display: table-cell;*/
     /*padding-left: 120px;*/
     /*font-weight: bold;*/
-    color: #444;
+    color: #eee;
+    text-shadow: 1px 2px 4px rgba(86, 59, 52, 0.90);
     margin: 40px 0 0 50px;
 }
 
 .slogan {
-    font-family: 'PT Sans', sans-serif;
     font-size: 18px;
-    color: cornflowerblue;
     margin: 0 0 40px 50px;
+}
+
+.download-block {
+    position: absolute;
+    right: 50px;
+    text-align: right;
+    top: 44px;
+}
+
+.download {
+    font-size: 20px;
+    text-decoration: none;
+    display: none;
+}
+
+.download-link {
+    text-decoration: none;
+    display: block;
+}
+
+.download-link-small {
+    text-decoration: none;
+    display: block;
+    line-height: 14px;
+}
+
+.download-arrow {
+
+}
+
+.download-text {
+    vertical-align: top;
+    font-size: 26px;
+    line-height: 35px;
+    border-bottom: 1px dotted rgba(49, 34, 30, 0.90);
+}
+
+.download-text-small {
+    border-bottom: 1px dotted rgba(49, 34, 30, 0.90);
+    font-size: 13px;
 }
 
 .screen {
     width: 100%;
     height: 800px;
-    background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
 }
 
 .screen.mac {
@@ -44,4 +101,13 @@ html, body {
 
 .screen.win {
     background-image: url("../img/screen_win.png");
+    height: 700px;
+    width:902px;
+    box-shadow: 0 20px 30px 10px rgba(33,33,33,0.3);
+    margin-bottom: 100px;
+}
+
+.footer {
+    margin-bottom: 20px;
+    text-align: center;
 }

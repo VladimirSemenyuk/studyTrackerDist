@@ -35,7 +35,7 @@ a:hover {
     /*display: table-cell;*/
     /*padding-left: 120px;*/
     /*font-weight: bold;*/
-    color: #eee;
+    color: #fefefe;
     text-shadow: 1px 2px 4px rgba(86, 59, 52, 0.90);
     margin: 40px 0 0 50px;
 }
@@ -57,6 +57,11 @@ a:hover {
     text-decoration: none;
     display: none;
 }
+
+ .download-btn {
+    font-size: 30px;
+    margin-top: 4px;
+ }
 
 .download-link {
     text-decoration: none;
@@ -104,6 +109,27 @@ a:hover {
     width:902px;
     box-shadow: 0 20px 30px 10px rgba(33,33,33,0.3);
     margin-bottom: 100px;
+}
+
+.issue-tracker {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fefefe;
+    text-shadow: 1px 2px 4px rgba(86, 59, 52, 0.5);
+}
+
+.vk-link {
+    color: #fefefe;
+}
+
+
+.vk-link:hover {
+    color: #fff;
+}
+
+.vk-logo {
+    font-size: 36px;
 }
 
 .footer {

@@ -119,6 +119,28 @@ a:hover {
     text-shadow: 1px 2px 4px rgba(86, 59, 52, 0.5);
 }
 
+.downloads-block {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 1px 2px 4px rgba(86, 59, 52, 0.5);
+}
+
+table tr:first-child td {
+    border-bottom: 1px solid rgba(49, 34, 30, 0.90);
+}
+
+table td {
+    border-right: 1px solid rgba(49, 34, 30, 0.90);
+    margin: 0;
+    padding: 10px 20px;
+    width: 50%
+}
+
+table td:last-child {
+    border-right: 0;
+}
+
 .vk-link {
     color: #fefefe;
 }
